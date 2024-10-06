@@ -9,7 +9,7 @@ import todoPage from '../pages/todoPage';
 
 
 test.describe('E2E Senario to Regestration user,add and delete todo ', () => {
-    test('should be able to add new todo', async ({ page, request, context }) => {
+     test('should be able to add new todo', async ({ page, request, context }) => {
         const user = new User();
         const signUp = new signUpPage();
         signUp.launch(page);
